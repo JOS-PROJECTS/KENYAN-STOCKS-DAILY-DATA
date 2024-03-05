@@ -2,7 +2,7 @@ name: run all_kenya_market_pricelist.py
 
 on:
   schedule:
-    - cron: '0 12 * * 1-5' # At 12pm daily(weekdays)
+    - cron: '10 0-24 * * 1-5' # At 12pm daily(weekdays)
 
 jobs:
   build:
